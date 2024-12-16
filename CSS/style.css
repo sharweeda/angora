@@ -1,0 +1,31 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: #32353A;
+}
+
+.custom-navbar{
+    background-color: #3A497B !important;
+}
+
+.nav-link.active{
+    color: #0197CA !important;
+}
+
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #0197CA;
+    transition: color .5s;
+}
+
+.card{
+    background-color: #272B30;
+    color: #fff;
+    transition: transform 1s;
+}
+.card:hover{
+    transform: scale(1.1 ,1.1);
+}
